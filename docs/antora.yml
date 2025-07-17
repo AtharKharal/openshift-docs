@@ -1,0 +1,5 @@
+name: openshift-docs
+version: 1.0
+title: OpenShift Core Docs
+nav:
+  - modules/ROOT/nav.adoc
