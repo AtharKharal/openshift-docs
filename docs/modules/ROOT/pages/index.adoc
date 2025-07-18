@@ -1,2 +1,87 @@
 = Welcome to OpenShift
-This is the OpenShift main documentation page.
+:page-layout: home
+:page-role: openshift-home
+:description: Main entry point for OpenShift documentation, covering installation, configuration, usage, and administration.
+
+Welcome to the official OpenShift documentation site. OpenShift is a comprehensive, Kubernetes-powered platform for deploying and managing containerized applications at scale. This site provides in-depth guides and technical references for users, developers, and administrators.
+
+OpenShift simplifies complex cloud-native infrastructure by offering an integrated developer experience, enterprise-grade security, and robust automation for hybrid and multi-cloud environments.
+
+== Key Features
+
+* **Kubernetes-native orchestration** with enhanced developer tooling.
+* **Integrated CI/CD pipelines** via OpenShift Pipelines and GitOps workflows.
+* **Built-in image registry** and container lifecycle management.
+* **Advanced networking** (SDN, ingress, service mesh).
+* **Centralized authentication, monitoring, and logging.**
+
+== Audience
+
+This documentation is intended for:
+
+* Platform Administrators responsible for installing, configuring, and maintaining OpenShift clusters.
+* Application Developers building and deploying containerized services.
+* Site Reliability Engineers (SREs) managing day-2 operations.
+* Security Analysts auditing policies and access controls.
+
+== Documentation Structure
+
+The OpenShift documentation is organized by topic and lifecycle stage:
+
+[cols="1,3", options="header"]
+|===
+| Section | Description
+
+| link:installing/index.adoc[Installation]
+| Step-by-step instructions for installing OpenShift on supported platforms, including bare metal, AWS, Azure, GCP, and OpenShift Local.
+
+| link:using/index.adoc[Using OpenShift]
+| Guides for developers and users: deploying applications, working with pods, services, routes, and operators.
+
+| link:admin/index.adoc[Cluster Administration]
+| Topics for configuring the control plane, managing users and quotas, networking, and storage.
+
+| link:security/index.adoc[Security]
+| Overview of access control, pod security policies, audit logs, and best practices for compliance.
+
+| link:monitoring/index.adoc[Monitoring and Logging]
+| Set up Prometheus, Grafana, Fluentd, and centralized alerting.
+
+| link:troubleshooting/index.adoc[Troubleshooting]
+| Diagnose and resolve common issues using oc, logs, and cluster tools.
+
+| link:release-notes/index.adoc[Release Notes]
+| Version-specific changes, deprecated features, and migration guidance.
+
+|===
+
+== Quick Start
+
+If you're new to OpenShift, begin with the following:
+
+* link:installing/openshift-local.adoc[Install OpenShift Local]
+* link:using/deploy-first-app.adoc[Deploy Your First Application]
+* link:admin/basic-cluster-setup.adoc[Configure Basic Cluster Settings]
+
+== Contributing
+
+This documentation is maintained by the community and Red Hat teams. Contributions are welcome via pull requests to the source repositories. Refer to the link:contributing/index.adoc[contribution guidelines] for more information.
+
+== External Resources
+
+* https://www.redhat.com/en/technologies/cloud-computing/openshift[Red Hat OpenShift Product Page]
+* https://access.redhat.com/documentation/en-us/openshift_container_platform/[Red Hat Official Documentation]
+* https://github.com/openshift[OpenShift GitHub Organization]
+
+== Feedback
+
+To suggest improvements or report issues with this documentation, please open an issue in the respective component's GitHub repository or contact the documentation team via the internal support channel.
+
+== Legal Notice
+
+OpenShift is a trademark of Red Hat, Inc. This documentation is provided under the Creative Commons Attribution–ShareAlike 4.0 License unless stated otherwise.
+
+'''
+
+_This site is powered by Antora and authored in AsciiDoc format._
+
