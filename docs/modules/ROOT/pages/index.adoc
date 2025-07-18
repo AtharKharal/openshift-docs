@@ -1,4 +1,4 @@
-= Welcome to OpenShift
+= Welcome to OpenShift by Athar Kharal
 :page-layout: home
 :page-role: openshift-home
 :description: Main entry point for OpenShift documentation, covering installation, configuration, usage, and administration.
