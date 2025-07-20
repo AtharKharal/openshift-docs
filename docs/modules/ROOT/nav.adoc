@@ -1,1 +1,6 @@
-* xref:index.adoc[Welcome]
+* xref:index.adoc[Welcome to OpenShift Docs]
+* xref:architecture.adoc[OpenShift Architecture]
+* xref:installing-openshift.adoc[Installing OpenShift]
+* xref:configuring-networking.adoc[Configuring Networking]
+* xref:using-cli-tools.adoc[Using CLI Tools]
+* xref:troubleshooting-tips.adoc[Troubleshooting Tips]

@@ -1,0 +1,24 @@
+= Troubleshooting Tips
+:page-layout: article
+
+== Common Issues
+
+* Cluster not reachable?
+** Check DNS resolution.
+** Check if API server is listening on port 6443.
+
+* Nodes not joining?
+** Check `kubelet` logs.
+** Ensure correct bootstrap token.
+
+== Logs
+
+[source,sh]
+----
+journalctl -u kubelet
+----
+
+[IMPORTANT]
+====
+Always review the logs for error patterns and configuration mismatches.
+====

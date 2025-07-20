@@ -1,0 +1,20 @@
+= Using CLI Tools
+:page-layout: article
+
+Use `oc` and `kubectl` to manage OpenShift from the command line.
+
+[cols="1,2",options="header"]
+|===
+| Command | Description
+
+| oc get pods
+| Lists all pods in the current namespace.
+
+| oc apply -f deployment.yaml
+| Applies a deployment configuration.
+|===
+
+[calloutlist]
+. Download `oc` from the OpenShift releases page.
+. Add it to your `PATH`.
+. Run commands from terminal.

@@ -1,0 +1,20 @@
+= Installing OpenShift
+:page-layout: article
+
+To install OpenShift, follow these steps:
+
+[.procedure]
+. Prepare infrastructure (bare metal, cloud).
+. Download and install the `openshift-installer`.
+. Run the following command:
+
+[source,console]
+----
+openshift-install create cluster --dir=install_dir --log-level=info
+----
+
+[CAUTION]
+====
+Ensure your cloud provider credentials are configured before running the installer.
+====
+

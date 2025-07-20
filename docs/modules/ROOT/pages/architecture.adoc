@@ -1,0 +1,29 @@
+= OpenShift Architecture
+:sectnums:
+:page-layout: article
+
+[NOTE]
+====
+This page outlines the architectural building blocks of OpenShift, including control plane and worker nodes.
+====
+
+== Core Components
+
+|===
+| Component | Function
+
+| API Server
+| Handles REST requests and exposes the Kubernetes API.
+
+| Controller Manager
+| Runs background tasks and manages desired state.
+
+| etcd
+| Key-value store used for persistent cluster configuration.
+
+| Scheduler
+| Assigns workloads (pods) to nodes.
+|===
+
+include::installing-openshift.adoc[lines=10..15]
+
