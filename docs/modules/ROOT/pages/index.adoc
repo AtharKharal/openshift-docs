@@ -14,7 +14,7 @@ OpenShift empowers organizations with a **hybrid-cloud-ready**, developer-centri
 
 [NOTE]
 ====
-This site is a fully automated, modular, and multi-versioned documentation system powered by Antora, authored in AsciiDoc, and version-controlled via Git.
+This site is a fully automated, modular, and multi-versioned documentation system powered by Antora, authored in AsciiDoc, and version-controlled via Git.      _*---Athar Kharal*_
 ====
 
 toc::[]
