@@ -1,87 +1,130 @@
-= Welcome to OpenShift by Athar Kharal
+= 🚀 Welcome to OpenShift Documentation
 :page-layout: home
 :page-role: openshift-home
 :description: Main entry point for OpenShift documentation, covering installation, configuration, usage, and administration.
+:icons: font
+:source-highlighter: rouge
+:toc: macro
+:toclevels: 2
 
-Welcome to the official OpenShift documentation site. OpenShift is a comprehensive, Kubernetes-powered platform for deploying and managing containerized applications at scale. This site provides in-depth guides and technical references for users, developers, and administrators.
+Welcome to the official _OpenShift_ documentation site — your definitive resource for understanding, configuring, and operating Red Hat's Kubernetes-powered platform.
 
-OpenShift simplifies complex cloud-native infrastructure by offering an integrated developer experience, enterprise-grade security, and robust automation for hybrid and multi-cloud environments.
+[.lead]
+OpenShift empowers organizations with a **hybrid-cloud-ready**, developer-centric experience for deploying containerized workloads at scale.
 
-== Key Features
+[NOTE]
+====
+This site is a fully automated, modular, and multi-versioned documentation system powered by Antora, authored in AsciiDoc, and version-controlled via Git.
+====
 
-* **Kubernetes-native orchestration** with enhanced developer tooling.
-* **Integrated CI/CD pipelines** via OpenShift Pipelines and GitOps workflows.
-* **Built-in image registry** and container lifecycle management.
-* **Advanced networking** (SDN, ingress, service mesh).
-* **Centralized authentication, monitoring, and logging.**
+toc::[]
 
-== Audience
+== 🌟 Why OpenShift?
 
-This documentation is intended for:
+[cols="2,4", options="header"]
+|===
+| Feature | Description
 
-* Platform Administrators responsible for installing, configuring, and maintaining OpenShift clusters.
-* Application Developers building and deploying containerized services.
-* Site Reliability Engineers (SREs) managing day-2 operations.
-* Security Analysts auditing policies and access controls.
+| *Kubernetes-native orchestration*
+| Enhanced cluster automation with native workloads, custom operators, and flexible scheduling.
 
-== Documentation Structure
+| *Integrated DevOps Tooling*
+| GitOps, Tekton pipelines, and developer dashboards built-in.
 
-The OpenShift documentation is organized by topic and lifecycle stage:
+| *Security First*
+| Built-in Role-Based Access Control (RBAC), Security Context Constraints (SCC), and compliance-grade auditing.
+
+| *Observability Stack*
+| Metrics, logging, and tracing with Prometheus, Grafana, and Fluentd.
+
+| *Hybrid/Multi-Cloud Ready*
+| Deploy to bare metal, AWS, Azure, GCP, or OpenShift Local.
+
+|===
+
+[CAUTION]
+====
+OpenShift assumes familiarity with container orchestration and Linux-based deployments. Beginners should start with `Quick Start` below.
+====
+
+== 👥 Who Should Use This Site?
+
+[sidebar]
+This site serves multiple personas:
+
+* *Platform Engineers* — Infrastructure provisioning and upgrades.
+* *Application Developers* — Building and deploying scalable workloads.
+* *SREs and DevOps* — CI/CD, monitoring, alerting, and day-2 operations.
+* *Security Teams* — RBAC, Pod Security, and audit policy management.
+
+== 📚 Documentation Structure
 
 [cols="1,3", options="header"]
 |===
 | Section | Description
 
 | link:installing/index.adoc[Installation]
-| Step-by-step instructions for installing OpenShift on supported platforms, including bare metal, AWS, Azure, GCP, and OpenShift Local.
+| Deploy OpenShift to a cloud provider, virtualized host, or local environment.
 
 | link:using/index.adoc[Using OpenShift]
-| Guides for developers and users: deploying applications, working with pods, services, routes, and operators.
+| Working with Pods, Deployments, Services, and Operators.
 
 | link:admin/index.adoc[Cluster Administration]
-| Topics for configuring the control plane, managing users and quotas, networking, and storage.
+| Configuring nodes, ingress, networking, persistent storage.
 
 | link:security/index.adoc[Security]
-| Overview of access control, pod security policies, audit logs, and best practices for compliance.
+| SCCs, OAuth, RBAC, audit logs, and policy management.
 
 | link:monitoring/index.adoc[Monitoring and Logging]
-| Set up Prometheus, Grafana, Fluentd, and centralized alerting.
+| Setup and tune Prometheus, Alertmanager, Fluentd, and Grafana dashboards.
 
 | link:troubleshooting/index.adoc[Troubleshooting]
-| Diagnose and resolve common issues using oc, logs, and cluster tools.
+| Diagnosing pod failures, cluster state, and performance issues.
 
 | link:release-notes/index.adoc[Release Notes]
-| Version-specific changes, deprecated features, and migration guidance.
+| Track version-specific changes and deprecated features.
 
 |===
 
-== Quick Start
+== 🚦 Quick Start
 
-If you're new to OpenShift, begin with the following:
+[.text-center]
+Ready to get started?
 
-* link:installing/openshift-local.adoc[Install OpenShift Local]
+* link:installing/openshift-local.adoc[Install OpenShift Local in minutes]
 * link:using/deploy-first-app.adoc[Deploy Your First Application]
-* link:admin/basic-cluster-setup.adoc[Configure Basic Cluster Settings]
+* link:admin/basic-cluster-setup.adoc[Set up Cluster Defaults]
 
-== Contributing
+== 🤝 Contribute
 
-This documentation is maintained by the community and Red Hat teams. Contributions are welcome via pull requests to the source repositories. Refer to the link:contributing/index.adoc[contribution guidelines] for more information.
+This site is maintained by both Red Hat engineers and the broader open source community.
 
-== External Resources
+[IMPORTANT]
+====
+Contributions are welcome! Please read the link:contributing/index.adoc[contribution guidelines] before submitting pull requests.
+====
 
-* https://www.redhat.com/en/technologies/cloud-computing/openshift[Red Hat OpenShift Product Page]
-* https://access.redhat.com/documentation/en-us/openshift_container_platform/[Red Hat Official Documentation]
-* https://github.com/openshift[OpenShift GitHub Organization]
+== 🌐 External Resources
 
-== Feedback
+* link:https://www.redhat.com/en/technologies/cloud-computing/openshift[Red Hat OpenShift Product Page]
+* link:https://access.redhat.com/documentation/en-us/openshift_container_platform/[Official OpenShift Docs]
+* link:https://github.com/openshift[OpenShift GitHub Repositories]
 
-To suggest improvements or report issues with this documentation, please open an issue in the respective component's GitHub repository or contact the documentation team via the internal support channel.
+== 🗨️ Feedback
 
-== Legal Notice
+Found an error or want to suggest improvements?
 
-OpenShift is a trademark of Red Hat, Inc. This documentation is provided under the Creative Commons Attribution–ShareAlike 4.0 License unless stated otherwise.
+* Open an issue in the relevant GitHub repo.
+* Contact the documentation team through the internal support channels.
+
+== 📜 Legal
+
+OpenShift® is a registered trademark of Red Hat, Inc.
+
+[small]
+This content is licensed under the Creative Commons Attribution–ShareAlike 4.0 License unless otherwise specified.
 
 '''
 
-_This site is powered by Antora and authored in AsciiDoc format._
-
+[.text-center]
+_This documentation site is generated by Antora and authored in semantic, portable AsciiDoc format._
